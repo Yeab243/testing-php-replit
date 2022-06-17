@@ -8,7 +8,7 @@ class TestOfCalculator extends UnitTestCase {
 	  $myCalc = new Calculator();
 	  $this->assertEqual($myCalc->subtract(4.2,2.1), 2.1, "4.2 - 2.1");
 	  $this->assertEqual($myCalc->subtract(4,2), 2, "4 - 2");
-	}
+	} 
 }
 
 	
